@@ -125,13 +125,13 @@ Default values used by `CycleBrushSize`:
 Default values used by `CycleBrushSize`:
 > FINE_BRUSH_SIZES = [1, 2, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
 
-These default values can overridden in your `GEUserBindings.ahk` file like this:
+These default values can overridden in your `GE-HAM_UserBindings.ahk` file like this:
 ```ahk
 ; Uncomment the lines below to use custom brush sizes
 global BRUSH_SIZES = [8, 45, 200]
 global FINE_BRUSH_SIZES = [1, 8, 25, 45, 100, 150, 200]
 ``` 
-***Important note:** These two lines must be located above the line `#Include, %A_ScriptDir%\GiantsEditorShortcuts.ahk` in your GEUserBindings file.*
+***Important note:** These two lines must be located above the line `#Include, %A_ScriptDir%\GE_HotkeysAndMacros.ahk` in your 'GE-HAM_UserBindings' file.*
 
 ### Brush geometry
 The command `CycleBrushGeometry` will cycle between square and round brush.

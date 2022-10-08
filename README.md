@@ -21,26 +21,26 @@ Note how the different toolbar buttons get activated/toggled without the mouse i
 
 1. Download and install AutoHotKey ([www.autohotkey.com](https://www.autohotkey.com/download/ahk-install.exe))
 2. Download this package and unzip to any suitable folder
-3. Add your custom bindings by editing the file `GEUserBindings.ahk` in a text editor of choice (examples included in the file)
-4. Run `GEUserBindings.ahk` by double clicking on the file
+3. Review/edit your custom bindings by editing the file `GE-HAM_UserBindings.ahk` in a text editor of choice (examples included in the file)
+4. Run `GE-HAM_UserBindings.ahk` by double clicking on the file
 
-***Note:** See [GE-HAM Script Reference](REFERENCE.md) for details about all available commands.*
+***Note:** See [GE-HAM Script Reference](REFERENCE.md) for details about all available commands in GE-HAM. For additional instructions about the key bindings, please see the [Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm) and [list of keys](https://www.autohotkey.com/docs/KeyList.htm) sections in the [AutoHotKey documentation](https://www.autohotkey.com/docs/Tutorial.htm).*
 
 
 ### Optional
 * Install VS Code or Notepad++ as your text editor of choice
 * If using VS Code is can strongly recommend the extension [AutoHotKey Plus Plus](https://marketplace.visualstudio.com/items?itemName=mark-wiemer.vscode-autohotkey-plus-plus)
-* Create a windows shortcut to your `GEUserBindings.ahk` and put that shortcut in your Start Menu Startup Folder to automatically start the script on every login
+* Create a windows shortcut to your `GE-HAM_UserBindings.ahk` and put that shortcut in your Start Menu Startup Folder to automatically start the script on every login
 
 ### Notes
-* You can freely rename `GEUserBindings.ahk` to any filename (or even create multiple copies) as long as the file `GiantsEditorShortcuts.ahk` remains unchanged and in the same folder as your UserBindings file.
+* You can freely rename `GE-HAM_UserBindings.ahk` to any filename (or even create multiple copies) as long as the file `GE_HotkeysAndMacros.ahk` remains unchanged and in the same folder as your UserBindings file.
 
 
 ## Usage
-To add your custom bindings edit the file `GEUserBindings.ahk` and look for a section like this:
+To add your custom bindings edit the file `GE-HAM_UserBindings.ahk` and look for a section like this (default line 15):
 
 ```ahk
-; ::[ GENERIC GIANTS EDITOR BINDINGS ]::
+; \\\\\\\\\\ YOUR BINDINGS GOES BELOW THIS LINE //////////
 ``` 
 
 Below this line you add your bindings in the format `{HOTKEY}:: {COMMAND}` (i.e. first the hotkey, then double-colon and lastly the command to execute). Example to toggle the brush toolbar button with the F2 key:
@@ -79,3 +79,11 @@ I love to hear you feedback so please check out my [Facebook](https://www.facebo
 ## Want to report a bug or have a great idea?
 Please check out my [project page](https://go.xilent.se/wzl-modding-projects) to get more details about the my projects or post bug reports/feature requests. Here you will also find information about known issues, tips on workarounds and occationally also hotfixes.
 
+
+## License
+
+*GE-HAM © 2022 by w33zl is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/).*
+
+*TL;DR: You are ALLOWED TO SHARE (copy and redistribute) the material in any medium or format as long as you ATTRIBUTE (give appropriate credit to) the original author, do NOT MAKE ANY DERIVATIVES (i.e. do not modify and re-publish this as your own work) and as long as it is NOT USED FOR COMMERCIAL PURPOSES.*
+
+*EXCEPTION: You may freely distribute any changes and additions made to the 'GE-HAM_UserBindings.ahk' file (or copies thereof) without any restrictions.*
