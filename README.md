@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Giants Editor - Hotkeys and Macros (GE-HAM)
 
 Tired of endlessly clicking in the menus and toolbar in Giants Editor and wishing there were more hotkeys/keyboard shortcuts? Now there is! With this AutoHotKey library you can bind a lot of common actions in GE to keyboard or mouse shortcuts or even create multi-step macros. If you want to take things one step further, you can also combine this with AutoHotPie (or any other radial/context menu of choice).
@@ -70,20 +69,12 @@ return
 ``` 
 
 **Important note:** it is mandatory to end the multi-line macro with a `return` statement.
-=======
-# Giants Editor Hotkeys and Macros (GE HAM)
->>>>>>> parent of 29a08a5... Initial GE-HAM reference documentation
-
-DESCRIPTION
 
 ## Like the work I do?
 I love to hear you feedback so please check out my [Facebook](https://www.facebook.com/w33zl). If you want to support me you can become my [Patron](https://www.patreon.com/wzlmodding) or buy me a [Ko-fi](https://ko-fi.com/w33zl) :heart:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X0BB65P) [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dwzlmodding%3F%26type%3Dpatrons&style=for-the-badge)](https://patreon.com/wzlmodding?)
 
-
-## WHATISRELEVANT
-* TBD
 
 ## Want to report a bug or have a great idea?
 Please check out my [project page](https://go.xilent.se/wzl-modding-projects) to get more details about the my projects or post bug reports/feature requests. Here you will also find information about known issues, tips on workarounds and occationally also hotfixes.
