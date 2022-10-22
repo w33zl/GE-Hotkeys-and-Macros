@@ -23,8 +23,11 @@ Note how the different toolbar buttons get activated/toggled without the mouse i
 2. Download this package and unzip to any suitable folder
 3. Review/edit your custom bindings by editing the file `GE-HAM_UserBindings.ahk` in a text editor of choice (examples included in the file)
 4. Run `GE-HAM_UserBindings.ahk` by double clicking on the file
+5. *(optional)* If you want to use *GE Hotkeys and Macros* together with *AutoHotPie* (radial menus) you need to follow some [additional steps](#Use-AutoHopPie-together-with-GE-HAM).
 
 ***Note:** See [GE-HAM Script Reference](REFERENCE.md) for details about all available commands in GE-HAM. For additional instructions about the key bindings, please see the [Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm) and [list of keys](https://www.autohotkey.com/docs/KeyList.htm) sections in the [AutoHotKey documentation](https://www.autohotkey.com/docs/Tutorial.htm).*
+
+
 
 
 ### Optional
@@ -69,6 +72,28 @@ return
 ``` 
 
 **Important note:** it is mandatory to end the multi-line macro with a `return` statement.
+
+### Use AutoHopPie together with GE-HAM
+To be able to use GE-HAM macros via radial menus from AutoHotPie (and similar tools) you need to add the following section at the bottom of your `GE-HAM_UserBindings.ahk` file. 
+
+```ahk
+; \\\\\\\\\\ YOUR SPECIAL AUTOHOTPIE BINDINGS GOES BELOW THIS LINE //////////
+#IfWinActive ; Below this line goes AHP bindings - do not edit this line
+```
+
+Then you need to bind the special command `AHPDummy()` for every GE-HAM command that you want to be able to call from AutoHotPie. Effectively you need to duplicate the keybinding, e.g:
+
+```ahk
+F2:: ToggleButton(TB_SCULPT) ; Original keybinding - can be used directly from GE
+
+; \\\\\\\\\\ YOUR SPECIAL AUTOHOTPIE BINDINGS GOES BELOW THIS LINE //////////
+#IfWinActive ; Below this line goes AHP bindings - do not edit this line
+
+F2:: AHPDummy() ; Dummy to trigger F2 hotkey in GE from AutoHotPie
+```
+
+_**Important note:** to work around a limitation caused by AutoHotPie these special bindings could potentially be active in every program and not limited to GE (which is the case for all normal hotkeys). To avoid conflicts you could use obscure keybindings for selected AHP bindings, e.g. use `Shift+F24` even though your physical keyboard only got F-keys 1-12 (AHP and GE-HAM can still bind to F13-24)_
+
 
 ## Like the work I do?
 I love to hear you feedback so please check out my [Facebook](https://www.facebook.com/w33zl). If you want to support me you can become my [Patron](https://www.patreon.com/wzlmodding) or buy me a [Ko-fi](https://ko-fi.com/w33zl) :heart:
