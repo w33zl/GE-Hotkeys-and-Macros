@@ -25,7 +25,7 @@ Note how the hotkey `Ctrl+Shift+T` creates new transform groups and how the `F2`
 4. Run `GE-HAM_UserBindings.ahk` by double clicking on the file
 5. *(optional)* If you want to use *GE Hotkeys and Macros* together with *AutoHotPie* (radial menus) you need to follow some [additional steps](#Use-AutoHopPie-together-with-GE-HAM).
 
-***Note:** See [GE-HAM Script Reference](https://github.com/w33zl/GE-Hotkeys-and-Macros/raw/master/REFERENCE.md) for details about all available commands in GE-HAM. For additional instructions about the key bindings, please see the [Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm) and [list of keys](https://www.autohotkey.com/docs/KeyList.htm) sections in the [AutoHotKey documentation](https://www.autohotkey.com/docs/Tutorial.htm).*
+***Note:** See [GE-HAM Script Reference](https://github.com/w33zl/GE-Hotkeys-and-Macros/blob/master/REFERENCE.md) for details about all available commands in GE-HAM. For additional instructions about the key bindings, please see the [Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm) and [list of keys](https://www.autohotkey.com/docs/KeyList.htm) sections in the [AutoHotKey documentation](https://www.autohotkey.com/docs/Tutorial.htm).*
 
 
 
