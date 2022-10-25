@@ -109,8 +109,18 @@ Please check out my [project page](https://go.xilent.se/wzl-modding-projects) to
 
 ## License
 
-*GE-HAM © 2022 by w33zl is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/).*
+*GE Hotkeys and Macros (GE-HAM) © 2022 by w33zl is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) (Creative Commons Attribution-NonCommercial-ShareAlike).* 
 
-*TL;DR: You are ALLOWED TO SHARE (copy and redistribute) the material in any medium or format as long as you ATTRIBUTE (give appropriate credit to) the original author, do NOT MAKE ANY DERIVATIVES (i.e. do not modify and re-publish this as your own work) and as long as it is NOT USED FOR COMMERCIAL PURPOSES.*
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> 
 
-*EXCEPTION: You may freely distribute any changes and additions made to the 'GE-HAM_UserBindings.ahk' file (or copies thereof) without any restrictions.*
+`TL;DR: You are ALLOWED TO SHARE (copy and redistribute) the material in any medium or format as long as you ATTRIBUTE (give appropriate credit to) the original author, do NOT MAKE ANY DERIVATIVES (i.e. do not modify and re-publish this as your own work) and as long as it is NOT USED FOR COMMERCIAL PURPOSES.`
+
+`EXCEPTION: You may freely distribute any changes and additions made to the 'GE-HAM_UserBindings.ahk' file (or copies thereof) without any restrictions.`
+
+`DISCLAIMER: THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.`
