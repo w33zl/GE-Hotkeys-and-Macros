@@ -92,6 +92,8 @@ F2:: ToggleButton(TB_SCULPT) ; Original keybinding - can be used directly from G
 F2:: AHPDummy() ; Dummy to trigger F2 hotkey in GE from AutoHotPie
 ```
 
+The first F2 binding is for the actual command to be executed in GE, either manually via the F2 key on your physical keyboard or indirectly via AutoHotPie. The second F2-bidning is to trigger the `AHPDummy()` command from any other program (e.g. AutoHotPie) which will act as an proxy and forward the F2 hotkey to GE (in this case toggle the sculpt button).
+
 _**Important note:** to work around a limitation caused by AutoHotPie these special bindings could potentially be active in every program and not limited to GE (which is the case for all normal hotkeys). To avoid conflicts you could use obscure keybindings for selected AHP bindings, e.g. use `Shift+F24` even though your physical keyboard only got F-keys 1-12 (AHP and GE-HAM can still bind to F13-24)_
 
 
