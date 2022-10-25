@@ -14,18 +14,18 @@ Tired of endlessly clicking in the menus and toolbar in Giants Editor and wishin
 
 ### Preview
 Note how the hotkey `Ctrl+Shift+T` creates new transform groups and how the `F2` key toggles the terrain sculpt toolbar button without using the mouse. This is just one of many use cases for this script.
-[![GE-HAM Hotkeys Preview](GE_HAM_Preview_Optimized.gif)](GE_HAM_Preview.mp4)
+[![GE-HAM Hotkeys Preview](https://github.com/w33zl/GE-Hotkeys-and-Macros/raw/master/GE_HAM_Preview_Optimized.gif)](https://github.com/w33zl/GE-Hotkeys-and-Macros/raw/master/GE_HAM_Preview.mp4)
 
 
 ## Getting Started
 
 1. Download and install AutoHotKey ([www.autohotkey.com](https://www.autohotkey.com/download/ahk-install.exe))
-2. Download this package and unzip to any suitable folder
+2. Download [latest GE-HAM package](https://github.com/w33zl/GE-Hotkeys-and-Macros/releases/latest) and unzip to any suitable folder
 3. Review/edit your custom bindings by editing the file `GE-HAM_UserBindings.ahk` in a text editor of choice (examples included in the file)
 4. Run `GE-HAM_UserBindings.ahk` by double clicking on the file
 5. *(optional)* If you want to use *GE Hotkeys and Macros* together with *AutoHotPie* (radial menus) you need to follow some [additional steps](#Use-AutoHopPie-together-with-GE-HAM).
 
-***Note:** See [GE-HAM Script Reference](REFERENCE.md) for details about all available commands in GE-HAM. For additional instructions about the key bindings, please see the [Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm) and [list of keys](https://www.autohotkey.com/docs/KeyList.htm) sections in the [AutoHotKey documentation](https://www.autohotkey.com/docs/Tutorial.htm).*
+***Note:** See [GE-HAM Script Reference](https://github.com/w33zl/GE-Hotkeys-and-Macros/raw/master/REFERENCE.md) for details about all available commands in GE-HAM. For additional instructions about the key bindings, please see the [Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm) and [list of keys](https://www.autohotkey.com/docs/KeyList.htm) sections in the [AutoHotKey documentation](https://www.autohotkey.com/docs/Tutorial.htm).*
 
 
 
