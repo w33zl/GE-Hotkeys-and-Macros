@@ -13,8 +13,8 @@ Tired of endlessly clicking in the menus and toolbar in Giants Editor and wishin
 * And more to come...
 
 ### Preview
-Note how the different toolbar buttons get activated/toggled without the mouse is moving. This is just one of many use cases for this script.
-![C5dal7m4VI](https://user-images.githubusercontent.com/7383510/194701227-d5095d81-da26-4b65-9a50-661176d17b22.gif)
+Note how the hotkey `Ctrl+Shift+T` creates new transform groups and how the `F2` key toggles the terrain sculpt toolbar button without using the mouse. This is just one of many use cases for this script.
+[![GE-HAM Hotkeys Preview](GE_HAM_Preview_Optimized.gif)](GE_HAM_Preview.mp4)
 
 
 ## Getting Started
