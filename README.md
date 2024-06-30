@@ -1,5 +1,7 @@
 # Giants Editor - Hotkeys and Macros (GE-HAM)
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/w33zl/GE-Hotkeys-and-Macros/total)
+
 Tired of endlessly clicking in the menus and toolbar in Giants Editor and wishing there were more hotkeys/keyboard shortcuts? Now there is! With this AutoHotKey library you can bind a lot of common actions in GE to keyboard or mouse shortcuts or even create multi-step macros. If you want to take things one step further, you can also combine this with AutoHotPie (or any other radial/context menu of choice).
 
 
